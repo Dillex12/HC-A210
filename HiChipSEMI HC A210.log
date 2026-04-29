@@ -1,0 +1,1307 @@
+time to boot: 57
+
+DDR Info:
+        type:DDR3
+        size:128M
+        freq:800MHz
+
+default image load address = 0x84353000
+*  kernel: default image load address = 0x84353000
+## Booting kernel from Legacy Image at 84353000 ...
+   Image Name:   *s
+   Image Type:   RISC HC-BOOT Standalone Program (lzma compressed)
+   Data Size:    3253407 Bytes
+   Load Address: 80001000
+   Entry Point:  80001000
+   Verifying Checksum ... OK
+   kernel data at 0x84353040, len = 0x0031a49f (3253407)
+   Uncompressing Standalone Program
+   kernel loaded at 0x80001000, end = 0x8096bc54
+D/HEX JEDEC id bytes:: 0000-0010: 5E 40 16 5E 40 16                                   ^@.^@.
+Flash Geometry:
+  blocksize:      4096
+  erasesize:      4096
+  neraseblocks:   1024
+  chipsize:       0x400000
+gpio0_key register /dev/input/event0
+VER:VIDDRIVER(Jun 30 2025 15:00:18)
+from sysdata:tvtype is 11
+eCaeELzDcxNpaWMpFexpnWMCUIEPNgcL 0
+b_hdmi_output = 1
+
+==========<zjMstpOfVAKHiewaIovlGnTUHXAlXdFD>-Into
+b_hdmi_output = 1
+--> hid_init : bus_register
+--> hid: hid_core init
+hdmi_tx_reg_set_phy_clk_dat_pwdown_hpg
+E/HDMIPHY1512     [01-01 00:00:04.774 t:02,0] (hdmi_phy_sys_wait_txsencse_det:417)HDMI WAIT PHY RDY TIME OUT
+hdmi_tx_reg_set_phy_clk_dat_pwdown_hpg
+E/HDMIPHY1512     [01-01 00:00:04.859 t:05,0] (hdmi_phy_sys_wait_txsencse_det:417)HDMI WAIT PHY RDY TIME OUT
+Init GE success.
+--> usb notify connect v1D6Bp0002
+--> usb notify connect v1D6Bp0002
+Welcom to HC cast!
+mount ok!
+api_system_init(), line:121. set watchdog timeout: 30000 ms
+->>> init_rotate = 0 h_flip 0 v_flip = 0
+data_mgr_default_init(), line:55. reset data!
+data_mgr_load(), line:176. Get sys data Node OK, volume:60!
+data_mgr_load(), line:239. Get app data Node OK!
+CFG 48K
+audio_info.ch_status 0x2000004
+eswin_usb_init entry !!
+eswin_usb_init exit !!
+hc1512a@dbA210# VER:H264(Jun 30 2025 15:00:18)
+allocsz = 0x2c90800
+=============================Show logo: /hccast_files/HCCAST_1920x1080.264 ok!=============================
+Get edid info error
+_tv_sys_auto_set(), line:608, set_tv_type: 11, auto_set: 0!
+_tv_sys_auto_set(), line:666, current true TV sys: 1!
+_tv_sys_auto_set(), line: 701, single output set TV sys: 11
+eCaeELzDcxNpaWMpFexpnWMCUIEPNgcL 0
+hdmi_tx_reg_set_phy_clk_dat_pwdown_hpg
+[musb] connect, devctl 5d
+E/HDMIPHY1512     [01-01 08:00:05.262 t:05,0] (hdmi_phy_sys_wait_txsencse_det:417)HDMI WAIT PHY RDY TIME OUT
+hotplug_hdmi_tx_init:867:
+bits_per_pixel: 32,red.length: 8, green.length: 8, blue.length: 8
+ variable screen: 1280x720, 32bpp
+screen.distype: 1
+scale_param.h_div: 1280, scale_param.v_div: 720, scale_param.h_mul: 1920, scale_param.v_mul:1080 scale_enable_val:0
+pixel_bytes: 4, screen_size: 00384000
+The framebuffer device was mapped to memory successfully.
+fbdev_buffer_start_phy: 0x010da000, fbdev_buffer_start_virt: 0x810da000
+lv_mem_adr: 0x8145e000, lv_mem_size: 4702176
+hc_lvgl_init:109
+buf1 = 0x810da000, buf2: = 0x0, size = 921600
+******************hcge_driver_init:40***********************
+lv_disp_register: w-1280,h-720
+key_monitor_task(), input device num: 1.
+win_cast_open(), line: 552!
+win_cast_open(), line: 557!, fw_ver: 0x956e6b59, product_id:HC15A210
+eswin_usb_probe entry, func: 0, g_usb: 0x0 !!
+eswin_usb_probe entry, reset slave !!
+eswin_usb_probe entry, xTimerCreate !!
+eswin_usb_probe entry, xTimerCreate end!!
+usb_create_infac entry 2!!
+usb_create_pipe entry, dir: 1!!
+usb_create_pipe entry, dir: 0!!
+eswin_usb_probe entry, data kthread!!
+eswin_usb_probe exit!!
+eswin_usb_probe entry, func: 1, g_usb: 0x8195dc00 !!
+usb_create_infac entry 2!!
+usb_create_pipe entry, dir: 1!!
+usb_create_pipe entry, dir: 0!!
+eswin_usb_probe entry, infac_msg!!
+eswin_core_register_work entry, dl_fw = 1
+mount ok!
+eswin_fw_file_chech, request fw OK and size is 149708
+fw_check_head,firmware build time: 2025-01-14 10:31:45
+fw_check_head,firmware information: (V1.0.0B03T252_hcrtos)
+dl-fw >> sync, ret: 0
+dl-fw >> sync, ret: 0
+firmware downloading 2%
+firmware downloading 5%
+firmware downloading 8%
+firmware downloading 10%
+firmware downloading 13%
+firmware downloading 16%
+firmware downloading 18%
+firmware downloading 21%
+firmware downloading 24%
+firmware downloading 26%
+firmware downloading 29%
+firmware downloading 32%
+firmware downloading 34%
+firmware downloading 37%
+firmware downloading 40%
+firmware downloading 42%
+firmware downloading 45%
+firmware downloading 48%
+firmware downloading 50%
+firmware downloading 53%
+firmware downloading 56%
+firmware downloading 58%
+firmware downloading 61%
+firmware downloading 64%
+firmware downloading 66%
+firmware downloading 69%
+firmware downloading 72%
+firmware downloading 74%
+firmware downloading 77%
+firmware downloading 80%
+firmware downloading 82%
+firmware downloading 85%
+firmware downloading 88%
+firmware downloading 91%
+firmware downloading 93%
+firmware downloading 99%
+firmware downloading 100%
+fimeware download successfully!
+usb_hif_start entry!!
+fhost_cntrl_start start success!
+enet_device_netdev_init[28]
+enet_device_netdev_init[28]
+ECR6600U WiFi Host driver SDK version:ECR6600U_V1.0.0B03T25_hcrtos
+eswin_core_register_work exit!!--> usb notify connect v3452p6600
+Wi-Fi Plug In -> Model: ecr6600u
+[hccast][hccast-media]:**********************[hccast]DLNA Lib Build(Mar 15 2025 14:54:57)
+[hccast]DLNA Lib Build(Mar 15 2025 14:54:57)
+****************************
+[hccast]MIRACAST Lib Build (Apr  2 2025 15:32:02)
+[hccast]hccdata_mgr_init_device_name device_name=Anycast-57871C
+it_devi----------------------------hccast_hostap_connect_thread is running.-----------------------------
+[hccast]httpd running on port 80
+ing on port 80
+t_hosta[wifi_hostap_thread][3292]
+win_cast_connect_state_upate(), line:423, force_station:0, station_mode:0
+[hccast]wifi_ctrl_hostapd_thread_start ok
+No ongoing scan/p2p-scan found to abort
+[hccast]run cmd: ABORT_SCAN!
+No ongoing scan/p2p-scan found to abort
+[hccast]run cmd: ABORT_SCAN!
+detect wifi model: ecr6600u
+fhost start ap cmd
+fhost start ap cmd cfm 0
+enet_device_netdev_open[74] net wlan0
+enet_device_netdev_set_rxmode[99]
+=net_if_up=0=
+fhost_map_sta_add staid:8 vifid:0 00:00:00:00:00:00
+add sta idx 8, addr 0x0000
+fhost set key cmd
+===param->inst_nbr== 1
+===================hccast_wifi_mgr_hostap_start: hostap start done.====================
+enet_device_netdev_open[74] net p2p0
+enet_device_netdev_set_rxmode[99]
+ftx vif invalid
+[hccast]The wifi not support miracast!
+info, udhcp server (v0.9.8) started
+[hccast]Enter p2p_ctrl_nl_wpas_init!
+P2P: P2P group interface not found
+[hccast]run cmd: P2P_GROUP_REMOVE p2p0!
+[hccast]P2P_GROUP_REMOVE p2p0 run error!
+[p2p_ctrl_nl_wpas_attr_init][355]listen_channel=1
+[hccast]p2p_ctrl_nl_device_init p2p device init
+info, udhcp server (v0.9.8) started
+[hccast]p2p_ctrl_nl_set_enable: p2p device enable.
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+fhost cancel remain on channel cmd 0
+===index 1==active=1=
+fhost cancel remain on channel cmd resp 0
+[hccast]hccast_mira_service_start mira start done.
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+[hccast]freq mode: 1
+network_connect_task(), line:2476. AP mode start
+fhost_cntrl_roc_timeout_handler
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+fhost_cntrl_roc_timeout_handler
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+sys_upg_usb_filepath_get(), line: 134. No USB device!
+sys_upg_usb_task(), line: 342. exit!
+fhost_cntrl_roc_timeout_handler
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+fhost_cntrl_roc_timeout_handler
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+fhost_cntrl_roc_timeout_handler
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+fhost_cntrl_roc_timeout_handler
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+time to boot: 57
+
+DDR Info:
+        type:DDR3
+        size:128M
+        freq:800MHz
+
+default image load address = 0x84353000
+*  kernel: default image load address = 0x84353000
+## Booting kernel from Legacy Image at 84353000 ...
+   Image Name:   *s
+   Image Type:   RISC HC-BOOT Standalone Program (lzma compressed)
+   Data Size:    3253407 Bytes
+   Load Address: 80001000
+   Entry Point:  80001000
+   Verifying Checksum ... OK
+   kernel data at 0x84353040, len = 0x0031a49f (3253407)
+   Uncompressing Standalone Program
+   kernel loaded at 0x80001000, end = 0x8096bc54
+D/HEX JEDEC id bytes:: 0000-0010: 5E 40 16 5E 40 16                                   ^@.^@.
+Flash Geometry:
+  blocksize:      4096
+  erasesize:      4096
+  neraseblocks:   1024
+  chipsize:       0x400000
+gpio0_key register /dev/input/event0
+VER:VIDDRIVER(Jun 30 2025 15:00:18)
+from sysdata:tvtype is 11
+eCaeELzDcxNpaWMpFexpnWMCUIEPNgcL 0
+b_hdmi_output = 1
+
+==========<zjMstpOfVAKHiewaIovlGnTUHXAlXdFD>-Into
+b_hdmi_output = 1
+--> hid_init : bus_register
+--> hid: hid_core init
+hdmi_tx_reg_set_phy_clk_dat_pwdown_hpg
+E/HDMIPHY1512     [01-01 00:00:04.773 t:02,0] (hdmi_phy_sys_wait_txsencse_det:417)HDMI WAIT PHY RDY TIME OUT
+hdmi_tx_reg_set_phy_clk_dat_pwdown_hpg
+E/HDMIPHY1512     [01-01 00:00:04.858 t:05,0] (hdmi_phy_sys_wait_txsencse_det:417)HDMI WAIT PHY RDY TIME OUT
+Init GE success.
+--> usb notify connect v1D6Bp0002
+--> usb notify connect v1D6Bp0002
+Welcom to HC cast!
+mount ok!
+api_system_init(), line:121. set watchdog timeout: 30000 ms
+->>> init_rotate = 0 h_flip 0 v_flip = 0
+data_mgr_default_init(), line:55. reset data!
+data_mgr_load(), line:176. Get sys data Node OK, volume:60!
+data_mgr_load(), line:239. Get app data Node OK!
+CFG 48K
+audio_info.ch_status 0x2000004
+eswin_usb_init entry !!
+eswin_usb_init exit !!
+hc1512a@dbA210# VER:H264(Jun 30 2025 15:00:18)
+allocsz = 0x2c90800
+=============================Show logo: /hccast_files/HCCAST_1920x1080.264 ok!=============================
+Get edid info error
+_tv_sys_auto_set(), line:608, set_tv_type: 11, auto_set: 0!
+_tv_sys_auto_set(), line:666, current true TV sys: 1!
+_tv_sys_auto_set(), line: 701, single output set TV sys: 11
+eCaeELzDcxNpaWMpFexpnWMCUIEPNgcL 0
+hdmi_tx_reg_set_phy_clk_dat_pwdown_hpg
+[musb] connect, devctl 5d
+E/HDMIPHY1512     [01-01 08:00:05.261 t:05,0] (hdmi_phy_sys_wait_txsencse_det:417)HDMI WAIT PHY RDY TIME OUT
+hotplug_hdmi_tx_init:867:
+bits_per_pixel: 32,red.length: 8, green.length: 8, blue.length: 8
+ variable screen: 1280x720, 32bpp
+screen.distype: 1
+scale_param.h_div: 1280, scale_param.v_div: 720, scale_param.h_mul: 1920, scale_param.v_mul:1080 scale_enable_val:0
+pixel_bytes: 4, screen_size: 00384000
+The framebuffer device was mapped to memory successfully.
+fbdev_buffer_start_phy: 0x010da000, fbdev_buffer_start_virt: 0x810da000
+lv_mem_adr: 0x8145e000, lv_mem_size: 4702176
+hc_lvgl_init:109
+buf1 = 0x810da000, buf2: = 0x0, size = 921600
+******************hcge_driver_init:40***********************
+lv_disp_register: w-1280,h-720
+event[0] first_press :1
+key_monitor_task(), input device num: 1.
+win_cast_open(), line: 552!
+win_cast_open(), line: 557!, fw_ver: 0x956e6b59, product_id:HC15A210
+eswin_usb_probe entry, func: 0, g_usb: 0x0 !!
+eswin_usb_probe entry, reset slave !!
+eswin_usb_probe entry, xTimerCreate !!
+eswin_usb_probe entry, xTimerCreate end!!
+usb_create_infac entry 2!!
+usb_create_pipe entry, dir: 1!!
+usb_create_pipe entry, dir: 0!!
+eswin_usb_probe entry, data kthread!!
+eswin_usb_probe exit!!
+eswin_usb_probe entry, func: 1, g_usb: 0x8195dc00 !!
+usb_create_infac entry 2!!
+usb_create_pipe entry, dir: 1!!
+usb_create_pipe entry, dir: 0!!
+eswin_usb_probe entry, infac_msg!!
+eswin_core_register_work entry, dl_fw = 1
+mount ok!
+eswin_fw_file_chech, request fw OK and size is 149708
+fw_check_head,firmware build time: 2025-01-14 10:31:45
+fw_check_head,firmware information: (V1.0.0B03T252_hcrtos)
+dl-fw >> sync, ret: 0
+dl-fw >> sync, ret: 0
+firmware downloading 2%
+firmware downloading 5%
+firmware downloading 8%
+firmware downloading 10%
+firmware downloading 13%
+firmware downloading 16%
+firmware downloading 18%
+firmware downloading 21%
+firmware downloading 24%
+firmware downloading 26%
+firmware downloading 29%
+firmware downloading 32%
+firmware downloading 34%
+firmware downloading 37%
+firmware downloading 40%
+firmware downloading 42%
+firmware downloading 45%
+firmware downloading 48%
+firmware downloading 50%
+firmware downloading 53%
+firmware downloading 56%
+firmware downloading 58%
+firmware downloading 61%
+firmware downloading 64%
+firmware downloading 66%
+firmware downloading 69%
+firmware downloading 72%
+firmware downloading 74%
+firmware downloading 77%
+firmware downloading 80%
+firmware downloading 82%
+firmware downloading 85%
+firmware downloading 88%
+firmware downloading 91%
+firmware downloading 93%
+firmware downloading 99%
+firmware downloading 100%
+fimeware download successfully!
+usb_hif_start entry!!
+fhost_cntrl_start start success!
+enet_device_netdev_init[28]
+enet_device_netdev_init[28]
+ECR6600U WiFi Host driver SDK version:ECR6600U_V1.0.0B03T25_hcrtos
+eswin_core_register_work exit!!--> usb notify connect v3452p6600
+Wi-Fi Plug In -> Model: ecr6600u
+[hccast][hccast-media]:**********************[hccast]DLNA Lib Build(Mar 15 2025 14:54:57)
+[hccast]DLNA Lib Build(Mar 15 2025 14:54:57)
+****************************
+[hccast]MIRACAST Lib Build (Apr  2 2025 15:32:02)
+[hccast]hccast_----------------------------hccast_hostap_connect_thread is running.-----------------------------
+-------------hdata_mgr_init_device_name device_name=Anycast-57871C
+ice_name[hccast]httpd running on port 80
+=An[wifi_hostap_thread][3292]
+win_cast_connect_state_upate(), line:423, force_station:0, station_mode:0
+[hccast]wifi_ctrl_hostapd_thread_start ok
+No ongoing scan/p2p-scan found to abort
+[hccast]run cmd: ABORT_SCAN!
+No ongoing scan/p2p-scan found to abort
+[hccast]run cmd: ABORT_SCAN!
+detect wifi model: ecr6600u
+fhost start ap cmd
+fhost start ap cmd cfm 0
+enet_device_netdev_open[74] net wlan0
+enet_device_netdev_set_rxmode[99]
+=net_if_up=0=
+fhost_map_sta_add staid:8 vifid:0 00:00:00:00:00:00
+add sta idx 8, addr 0x0000
+fhost set key cmd
+===param->inst_nbr== 1
+===================hccast_wifi_mgr_hostap_start: hostap start done.====================
+enet_device_netdev_open[74] net p2p0
+enet_device_netdev_set_rxmode[99]
+ftx vif invalid
+[hccast]The wifi not support miracast!
+info, udhcp server (v0.9.8) started
+[hccast]Enter p2p_ctrl_nl_wpas_init!
+P2P: P2P group interface not found
+[hccast]run cmd: P2P_GROUP_REMOVE p2p0!
+[hccast]P2P_GROUP_REMOVE p2p0 run error!
+[p2p_ctrl_nl_wpas_attr_init][355]listen_channel=1
+[hccast]p2p_ctrl_nl_device_init p2p device init
+info, udhcp server (v0.9.8) started
+[hccast]p2p_ctrl_nl_set_enable: p2p device enable.
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+fhost cancel remain on channel cmd 0
+===index 1==active=1=
+fhost cancel remain on channel cmd resp 0
+[hccast]hccast_mira_service_start mira start done.
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+[hccast]freq mode: 1
+network_connect_task(), line:2476. AP mode start
+fhost_cntrl_roc_timeout_handler
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+fhost_cntrl_roc_timeout_handler
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+sys_upg_usb_filepath_get(), line: 134. No USB device!
+sys_upg_usb_task(), line: 342. exit!
+fhost_cntrl_roc_timeout_handler
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+fhost_cntrl_roc_timeout_handler
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+fhost_cntrl_roc_timeout_handler
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+fhost_cntrl_roc_timeout_handler
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+fhost remain on channel cmd resp 0
+
+hc1512a@dbA210# wifi
+hc1512a@dbA210(wifi)# wdll 0
+wifi driver log lovel=0
+hc1512a@dbA210(wifi)# exit
+hc1512a@dbA210# 
+hc1512a@dbA210# help
+
+Commands available:
+  help                 Show available cmds
+  exit                 Exit from current cmd set
+  history              Show history cmds
+  reset                reset system
+  dumpstack            memory status entry
+  gpio                 gpio pin val
+  wdt                  watchdog cmds entry
+  elog                 elog cmds entry
+  mem                  memory status entry
+  net                  net cmds entry
+  softirqresched       set softirq resched priority
+  softirq              set softirq priority
+  showpthread          show pthread entry
+  sde                  SDE tool
+  dis                  enter dis test
+  test_mem_wr_speed    test mem write speed
+  test_mem_rd_speed    test mem read speed
+  swxf                 swxf
+  reset_hrx_audio      reset hdmi rx audio
+  dsc                  enter pthread cmd console
+  os                   os cmds entry
+  nsh                  Enter NSH cmds
+  lslibinfo            list library info
+  lsmod                list init modules
+  wifi                 enter wifi test utilities
+  i2soinfo             i2soinfo()
+  enejtag              enejtag()
+  disejtag             disejtag()
+  transcode            transcode ipath opath
+  mp                   enter & init mplayer
+  fdkaac_stop          fdkaac test stop
+  fdkaac               do fdkaac test
+hc1512a@dbA210# dumpstack
+
+<0x80cde7d8: +0x190>    (0x80cde8c0, 0x00000000, 0x00000000, 0x80cde8c0) ra 0x800596a0 sz 256
+<0x80cde8d8: +0xfc>     (0x80cde8c0, 0x00000000, 0x00000000, 0x80cde8c0) ra 0x80080cac sz 40
+<0x80cde900: +0xb4>     (0x80cde8c0, 0x00000000, 0x00000000, 0x80cde8c0) ra 0x8008137c sz 568
+<0x80cdeb38: +0x678>    (0x80cde8c0, 0x00000000, 0x00000000, 0x80cde8c0) ra 0x8008201c sz 1136
+<0x80cdefa8: +0xc8>     (0x80cde8c0, 0x00000000, 0x00000000, 0x80cde8c0) ra 0x8003bf90 sz 48
+<0x80cdefd8: +0x64>     (0x80cde8c0, 0x00000000, 0x00000000, 0x80cde8c0) ra 0x800614b0 sz 24
+hc1512a@dbA210# elog
+hc1512a@dbA210(elog)# help
+
+Commands available:
+  help                 Show available cmds
+  exit                 Exit from current cmd set
+  history              Show history cmds
+  filter               Show elog filter settings
+  kw                   Set elog global filter keyword
+  tag                  Set elog global filter tag
+  lvl                  Set elog global filter level
+  tag_lvl              Set elog filter level by different tag
+hc1512a@dbA210(elog)# filter
+
+--------------------------------------
+elog global filter:
+level   : Error  [1]
+tag     : NULL
+keyword : NULL
+--------------------------------------
+elog tag's level filter:
+settings not found
+hc1512a@dbA210(elog)# exit
+hc1512a@dbA210# mem
+hc1512a@dbA210(mem)# help
+
+Commands available:
+  help                 Show available cmds
+  exit                 Exit from current cmd set
+  history              Show history cmds
+  free                 show dynamic memory status
+hc1512a@dbA210(mem)# free
+
+system_mem_total: 74049152
+system_mem_free: 43091944
+mem_total: 0
+
+Code size info:
+ Range           0x80001000  -  0x80c93680
+ Code size         13182592 (12873.62 KB,  12.57 MB)
+   overlay size           0 (    0.00 KB,   0.00 MB)
+   text size        7525696 ( 7349.31 KB,   7.18 MB)
+   rodata size      1722752 ( 1682.38 KB,   1.64 MB)
+   all-data size    3934144 ( 3841.94 KB,   3.75 MB)
+     data size       619488 (  604.97 KB,   0.59 MB)
+     sdata size          60 (    0.06 KB,   0.00 MB)
+     init size         5692 (    5.56 KB,   0.01 MB)
+     sbss size          732 (    0.71 KB,   0.00 MB)
+     bss size       3308064 ( 3230.53 KB,   3.15 MB)
+System Heap info:
+ Range           0x80c94000  -  0x85332680
+ Total available   74049152 (72313.62 KB,  70.62 MB)
+ WaterLine         30990336 (30264.00 KB,  29.55 MB)
+ Unexploited       43058816 (42049.62 KB,  41.06 MB)
+ Used              30956072 (30230.54 KB,  29.52 MB)
+ Free              43091528 (42081.57 KB,  41.10 MB)
+MMZ(0) Heap info:
+ Range           0x85333000  -  0x87ffff00
+ Total available   46976768 (45875.75 KB,  44.80 MB)
+ WaterLine         46915584 (45816.00 KB,  44.74 MB)
+ Unexploited          61184 (   59.75 KB,   0.06 MB)
+ Used              46914768 (45815.20 KB,  44.74 MB)
+ Free                 61184 (   59.75 KB,   0.06 MB)
+hc1512a@dbA210(mem)# exit
+hc1512a@dbA210# net
+hc1512a@dbA210(net)# help
+
+Commands available:
+  help                 Show available cmds
+  exit                 Exit from current cmd set
+  history              Show history cmds
+  udhcpd               udhcpd
+  setdefault           set default netif
+  dhclient             dhclient
+  netstat              netstat
+  dns                  dns
+  ping                 ping
+  arp                  arp
+  ifconfig             ifconfig
+  lwipiperf            lwip iperf
+  iperf                iperf
+  reoder               fhost_reoder_discard_change
+  drop                 change_eswin_drop_out_of_order_packet_flag
+  iperf2               iperf2
+hc1512a@dbA210(net)# netstat
+
+========== total sockets 128 ======  unused sockets 118 ==========
+Proto   Recv-Q      Send-Q      Local Address           Foreign Address         State
+tcp     0           0           0.0.0.0:80              0.0.0.0:0               LISTEN
+
+Proto   Recv-Q      Send-Q      Local Address           Foreign Address
+udp     94208       0           127.0.0.1:62510         127.0.0.1:9877
+udp     0           0           127.0.0.1:62525         127.0.0.1:9890
+udp     0           0           0.0.0.0:67              0.0.0.0:0
+udp     0           0           0.0.0.0:67              0.0.0.0:0
+udp     0           0           127.0.0.1:9877          0.0.0.0:0
+udp     0           0           127.0.0.1:9890          0.0.0.0:0
+udp     0           0           127.0.0.1:9884          0.0.0.0:0
+udp     0           0           127.0.0.1:9882          0.0.0.0:0
+udp     0           0           127.0.0.1:9880          0.0.0.0:0
+
+hc1512a@dbA210(net)# ifconfig
+p2p0    ip:128.0.0.1 netmask:255.0.0.0 gateway:0.0.0.0
+        HWaddr 88:3b:dc:57:87:1c MTU:1500 Running Link UP
+wlan0   ip:192.168.49.1 netmask:255.255.255.0 gateway:192.168.49.1
+        HWaddr 8a:3b:dc:57:87:1c MTU:1500 Running Default Link UP
+lo      ip:127.0.0.1 netmask:255.0.0.0 gateway:127.0.0.1
+        HWaddr 00 MTU:0 Running Link UP
+hc1512a@dbA210(net)# exit
+hc1512a@dbA210# sde
+
+sde mode 0 (1, 1), trace 0, scale (0, 0)
+    hor :   0  40  80 120 160| 180| 190 200 210 220 230
+    ver :   0  16  32  48  64|  80|  94 108 122 136 150
+hc1512a@dbA210# dis
+hc1512a@dbA210(dis)# help
+
+Commands available:
+  help                 Show available cmds
+  exit                 Exit from current cmd set
+  history              Show history cmds
+  dither
+  set_global_alpha     set global alpha,-d DIS_TYPE(0 sd, 1 hd, 2 uhd) -l DIS_LAYER(0x1 main, 0x10 auxp) -e enable -a alpha
+  set_cvbs_src_layer   set cvbs src layer
+  get_blend_order      get blend order
+  set_hdcp_onoff       -o 0:off 1:on
+  set_hdcp_key         set hdcp key
+  set_cec_logical_addr -c 0:standby
+  send_cec_cmd         -c 0:standby
+  get_cec_onff         get_cec_onff
+  set_cec_onff         -e 0:off,1:on
+  get_edid_all_res     get_edid_all_video_res
+  denh                 dynamic enh -d DIS_TYPE(0 sd, 1 hd, 2 uhd),-o :onoff(0:off,1:on))
+  dump                 y:buf_y c:buf_c s:size)
+  getbuf               get display buf in rgb
+  getdisplayinfo       getdisplayinfo -d DIS_TYPE(0 sd, 1 hd, 2 uhd)
+  cb                   cb (miracast vscreen cb) -d DIS_TYPE(0 sd, 1 hd, 2 uhd) -o 1:on 0:off
+  underdac             underdac -d DIS_TYPE(0 sd, 1 hd, 2 uhd) -u type
+  regdac               regdac -d DIS_TYPE(0 sd, 1 hd, 2 uhd) -t eDacType -e enable -f uDacFirst -s uDacSecond -h uDacThird -p bpregressive(1 DVI_SCAN_PROGRESSIVE,2 DVI_SCAN_INTERLACE) -v tvtype
+  bgcolor              bgcolor -d DIS_TYPE(0 sd, 1 hd, 2 uhd) -y color uY -b color uCb -r color uCr
+  get_keystone         get keystone -d DIS_TYPE(0 sd, 1 hd, 2 uhd)
+  keystone             keystone -d DIS_TYPE(0 sd, 1 hd, 2 uhd) -c bg color enable(0 disable 1 enable) -e keystone(0 disable 1 enable) -w up width -i down width -y bg y -b bg cb -r bg cr
+  singleout            singleout -d DIS_TYPE(0 sd, 1 hd, 2 uhd) -o single output
+  awonoff              awonoff -d DIS_TYPE(0 sd, 1 hd, 2 uhd) -w WinOnOff
+  cutoff               cutoff -d DIS_TYPE(0 sd, 1 hd, 2 uhd) -c cutoff
+  bppic                bppic  -d DIS_TYPE(0 sd, 1 hd, 2 uhd)
+  layerorder           layerorder -d 1 -o 0 -l 1 -r 2 -g 3 ->set layer order: main_layer 0, auxp_layer 1, gmas_layer 2, gmaf_layer 3
+  outfmt               outfmt -f HDMI OUT FORMT(1 YCBCR_420,2 YCBCR_422,3 YCBCR_444,4 RGB_MODE1,5 RGB_MODE2) -d DIS_TYPE(0 sd, 1 hd, 2 uhd)
+  hanen                hanen -e ENHANCE EN(0 disable, 1 enable) -d DIS_TYPE(0 sd, 1 hd, 2 uhd)
+  venhance             venhance -c Picture enhancement type(0x01 BRIGHTNESS,0x02 CONTRAST,0x04 SATURATION,0x08 SHARPNESS,0x10 HUE)-d DIS_TYPE(0 sd, 1 hd, 2 uhd) -g picture enhancement value(0-100,default 50)
+  winon                winon -l DIS_LAYER(0x1 main, 0x10 auxp) -d DIS_TYPE(0 sd, 1 hd, 2 uhd) -o ON(1 on, 0 off)
+  disrotate            disrotate -r rotate(1 90, 2 180,3 270)  -m mirror -d DIS_TYPE(0 sd, 1 hd, 2 uhd)
+  aspect               aspect -d DIS_TYPE(0 sd, 1 hd, 2 uhd) -t TV_MODE -m DISPLAY_MODE
+  zoom                 zoom -l DIS_LAYER -d DIS_TYPE source area:(-x -y -w -h )  dst area:(-o x-offset of the area -k y-offset of the area -j Width of the area -g Height of the area)
+  tvsys                tvsys -c cmd(0:DIS_SET_TVSYS  1:DIS_GET_TVSYS) -l DIS_LAYER -d DIS_TYPE -t TVTYPE -p progressive
+hc1512a@dbA210(dis)# exit
+hc1512a@dbA210# dsc
+
+crypt.output: 0x81952cc0
+crypt.input: 0x81952c60
+fd: 18
+key: 00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f
+iv: 00 0b 16 21 2c 37 42 4d 58 63 0a 0b 0c 0d 0e 0f
+i = 0
+input: 00 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f
+output: 36 68 11 ef bb c7 22 7a d7 49 7d 4e a4 5b ea 3f
+i = 1
+input: 01 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f
+output: 03 33 3f 0e e0 dd 3f 44 1e 50 df 67 79 d0 24 14
+i = 2
+input: 02 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f
+output: 6e 84 7b 1b 8b 9e 42 74 80 46 44 54 d7 9d b9 4f
+i = 3
+input: 03 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f
+output: 87 83 b6 8a 3e dc af 2b 5e 93 d3 c5 ce dd 5e 3c
+i = 4
+input: 04 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f
+output: c4 4a 17 4f 7c 02 33 d2 e9 c2 64 4b e1 4c 3b 32
+i = 5
+input: 05 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f
+output: 5a 68 5a 55 24 52 40 f8 b6 92 f6 c7 65 4c 61 d7
+i = 6
+input: 06 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f
+output: 69 6a 3c 04 21 bc 6b fa 9c c2 0d 36 76 42 90 7f
+i = 7
+input: 07 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f
+output: fe 6a 33 01 16 80 cb b7 97 b6 c1 85 17 0e 15 26
+i = 8
+input: 08 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f
+output: cd 2f c1 c4 4d 5b dc ba eb 87 6f e4 74 8b 17 cf
+i = 9
+input: 09 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f
+output: 87 d1 aa 1e 3f 6a de 4e 7e 3f 4b 43 18 6d 7b 61
+hc1512a@dbA210# os
+hc1512a@dbA210(os)# help
+
+Commands available:
+  help                 Show available cmds
+  exit                 Exit from current cmd set
+  history              Show history cmds
+  top                  FreeRTOS tasks performance statistics
+  ps                   Display all FreeRTOS tasks status
+hc1512a@dbA210(os)# top
+
+Task            RunTimeCounter  Percentage
+******************************************
+app_main        19318           <1%
+IDLE            31183168                92%
+AVC             191171          <1%
+HDM             174384          <1%
+pthread         178013          <1%
+pthread         44484           <1%
+pthread         3901            <1%
+pthread         4115            <1%
+pthread         5836            <1%
+pthread         22674           <1%
+pthread         21283           <1%
+pthread         117539          <1%
+pthread         8267            <1%
+pthread         785171          2%
+pthread         416             <1%
+hpwork0         724             <1%
+tcpip_thread    103896          <1%
+events_long     1               <1%
+events_unbound  0               <1%
+events_freezabl 0               <1%
+events_freezabl 1               <1%
+audsink         1               <1%
+hcusb_g_det_dis 1               <1%
+hcusb_g_det_con 0               <1%
+hcusb_g_det_dis 1               <1%
+hcusb_g_det_con 0               <1%
+events_power_ef 22              <1%
+pthread         71              <1%
+ksoftirqdhi     2               <1%
+events          5               <1%
+ksoftirqd/0     7               <1%
+usb_hub_wq      9567            <1%
+pthread         102             <1%
+pthread         62              <1%
+lpwork0         633             <1%
+Tmr Svc         7               <1%
+rx_comp         170458          <1%
+events_highpri  1               <1%
+ISR             956834          2%
+hc1512a@dbA210(os)# ps
+
+Task            State   Pority  FreeStackSpace  ID      pxHandle(TaskRoutine)
+*************************************************************************
+app_main        X       11      3228            2       0x80cdf000
+IDLE            R       0       965             3       0x80975c58
+HDM             B       11      269             19      0x80d30600
+pthread         B       11      15751           24      0x81931600(0x800451e4)
+pthread         B       11      3709            43      0x82931d00(0x8012070c)
+tcpip_thread    B       15      6017            7       0x80cdfb00
+pthread         B       11      10681           42      0x82931f00(0x80125b30)
+pthread         B       11      1866            44      0x82931a00(0x8014c0d4)
+pthread         B       11      1963            45      0x82931800(0x8014c2c4)
+pthread         B       11      1913            36      0x82930b00(0x801121e4)
+pthread         B       11      3709            41      0x8295b800(0x8012070c)
+pthread         B       11      1327            37      0x82930900(0x80045ce0)
+pthread         B       11      14996           39      0x82930500(0x8012a124)
+pthread         B       11      1809            38      0x82930700(0x80113aec)
+pthread         B       11      1963            25      0x81931400(0x800451b8)
+hpwork0         B       14      7927            5       0x80cdfe00
+AVC             B       15      7976            26      0x81960500
+events_unbound  B       11      4009            13      0x80cdf500
+events_freezabl B       11      4009            14      0x80cdf400
+events_freezabl B       11      4009            16      0x80cdf200
+audsink         S       14      831             18      0x80d30800
+hcusb_g_det_dis B       11      4009            20      0x80d30100
+hcusb_g_det_con B       11      4009            21      0x81931000
+hcusb_g_det_dis B       11      4009            22      0x81931b00
+hcusb_g_det_con B       11      4009            23      0x81931a00
+events_power_ef B       11      3901            15      0x80cdf300
+pthread         S       11      1843            28      0x81960100(0x800426f4)
+ksoftirqdhi     S       16      8123            9       0x80cdf900
+events          B       11      4006            10      0x80cdf800
+ksoftirqd/0     S       14      8123            8       0x80cdfa00
+usb_hub_wq      B       11      3412            17      0x80d30000
+pthread         B       11      3935            34      0x82930000(0x801106bc)
+pthread         S       11      1841            27      0x81960300(0x80048014)
+lpwork0         B       11      3887            6       0x80cdfd00
+Tmr Svc         B       14      16302           4       0x80985d0c
+rx_comp         S       15      614             33      0x8195c800
+events_highpri  B       14      4009            11      0x80cdf700
+events_long     B       11      4009            12      0x80cdf600
+hc1512a@dbA210(os)# exit
+hc1512a@dbA210# 
+hc1512a@dbA210# nsh
+hc1512a@dbA210(nsh)# help
+
+Commands available:
+  help                 Show available cmds
+  exit                 Exit from current cmd set
+  history              Show history cmds
+  rmdir                <dir-path>
+  rm                   <file-path>
+  mv                   <old-path> <new-path>
+  mkrd                 [-m <minor>] [-s <sector-size>] <nsectors>
+  mkfatfs              [-F <fatsize>] [-r <rootdirentries>] <block-driver>
+  mkdir                <path>
+  ls                   [-lRs] <dir-path>
+  cp                   <source-path> <dest-path>
+  cat                  <path> [<path> [<path> ...]]
+  exec
+  pwd
+  cd                   [<dir-path>|-|~|..]
+  hexdump              <file or device> [skip=<bytes>] [count=<bytes>]
+  xd                   <hex-address> <byte-count>
+  mw2                  <hex-address>[=<hex-value>] [<hex-byte-count>]
+  mw                   <hex-address>[=<hex-value>] [<hex-byte-count>]
+  mh                   <hex-address>[=<hex-value>] [<hex-byte-count>]
+  mb                   <hex-address>[=<hex-value>] [<hex-byte-count>]
+  date                 [-s "MMM DD HH:MM:SS YYYY"]
+  time                 "<command>"
+  umount               <dir-path>
+  mount                [-t <fstype> [-o <options>] [<block-device>] <mount-point>]
+  dd                   if=<infile> of=<outfile> [bs=<sectsize>] [count=<sectors>] [skip=<sectors>]
+hc1512a@dbA210(nsh)# date
+Thu, Jan 01 00:10:16 1970
+hc1512a@dbA210(nsh)# pwd
+/
+hc1512a@dbA210(nsh)# ls -l
+/:
+ dr--r--r--          0 dev/
+ dr-xr-xr-x          0 hccast_files/
+hc1512a@dbA210(nsh)# ls -l /dev
+/dev:
+ crw-rw-rw-          0 ZZd2C
+ crw-rw-rw-          0 auddec
+ crw-rw-rw-          0 audsink
+ crw-rw-rw-          0 avsync0
+ crw-rw-rw-          0 avsync1
+ dr--r--r--          0 bus/
+ crw-rw-rw-          0 dis
+ crw-rw-rw-          0 dsc
+ crw-rw-rw-          0 efuse
+ crw-rw-rw-          0 efuse_protect
+ crw-rw-rw-          0 fb0
+ crw-rw-rw-          0 ge
+ crw-rw-rw-          0 hdmi
+ crw-rw-rw-          0 i2c0
+ dr--r--r--          0 input/
+ crw-rw-rw-          0 mmz
+ brw-rw-rw-    4194304 mtdblock0
+ brw-rw-rw-      53248 mtdblock1
+ brw-rw-rw-     237568 mtdblock2
+ brw-rw-rw-    3772416 mtdblock3
+ brw-rw-rw-     131072 mtdblock4
+ crw-rw-rw-          0 null
+ crw-rw-rw-          0 pcap
+ crw-rw-rw          0 persistentmem
+ crw-rw-rw-          0 random
+ crw-rw-rw-          0 sf_protect
+ crw-rw-rw-          0 sndC0i2so
+ crw-rw-rw-          0 spidev0
+ crw-rw-rw-          0 standby
+ crw-rw-rw-          0 uart1
+ crw-rw-rw-          0 uart_dummy
+ crw-rw-rw-          0 urandom
+ crw-rw-rw-          0 viddec
+ crw-rw-rw-          0 vidsink
+ crw-rw-rw-          0 watchdog
+hc1512a@dbA210(nsh)# ls -l /hccast_files
+/hccast_files:
+ dr-xr-xr-x          0 .
+ dr-xr-xr-x          0 ..
+ -r--r--r--     149708 ECR6600U_transport.bin
+ -r-xr-xr-x      19495 music_bg_logo.264
+ -r-xr-xr-x      40540 HCCAST_1920x1080.264
+hc1512a@dbA210(nsh)# exit
+hc1512a@dbA210# 
+hc1512a@dbA210# lslibinfo
+
+        lnxporting       : 9a6e98a 2025-03-31 17:22:47 lisa.liu
+        viddriver        : e2fba59b 2025-06-30 15:00:18 ryan.liang
+        libge            : ffbeb99 2025-03-04 16:32:36 weiwen.liu
+        ffplayer         : 3364de6 2025-03-27 19:25:17 edison.xie
+        libdsc           : c195af2 2024-06-22 11:29:33 banner.xia
+        libmp3           : 32305eb 2025-03-27 19:26:27 edison.xie
+        libaaceld        : 32305eb 2025-03-27 19:26:27 edison.xie
+        libflac          : 32305eb 2025-03-27 19:26:27 edison.xie
+        libtremor        : 32305eb 2025-03-27 19:26:27 edison.xie
+        libra            : 32305eb 2025-03-27 19:26:27 edison.xie
+        auddrv           : 1a28f9c 2025-04-15 15:39:45 iris.chen
+        libauddsp        : 32305eb 2025-03-27 19:26:27 edison.xie
+        libusbdrv        : ff7b0b0 2025-07-01 14:14:02 tony.su
+        libefuse         : 8b0051f 2025-06-23 15:44:16 haojia.qiu
+hc1512a@dbA210# lsmod
+core modules:
+        workqueue
+        input_mutex
+        g_pipesem
+        fs
+        g_devno_sem
+        __afpacket_mutex
+        __monitor_mutex
+        pools_reg_lock
+        pools_lock
+        VinmAcGfNbRrzQHQnulyqwJkmhGEXCyv
+        usb_port_peer_mutex
+        usb_bus_list_lock
+        usbfs_mutex
+        hid_open_mut
+        MRlhHoLYgOhhvTMpLAJvdOQfEtOGuThi
+postcore modules:
+        ---none---
+arch modules:
+        dummyuart
+        devnull
+        uart
+        wdt
+        stdio
+        logger
+system modules:
+        hpwork
+        lpwork
+        hc_spisf
+        hwspinlock
+        lwip
+fhost_cntrl_roc_timeout_handler
+        softirqd
+        workqueue
+        usb
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+        spi_nor
+fhost remain on channel cmd resp 0
+        netsubsys
+        softirq
+        linux_driver_init
+        apll_dai
+        persistentmem
+        idr
+        rcu
+        efuse
+        hc_saradc_clk_init
+        hc_key
+        automount
+driver modules:
+        avsync
+        vidsink
+        llav_dis
+        viddec
+        spo_dai
+        hdmi_audio_dai
+        i2s_dai
+        pwm_dac_dai
+        cs4344_dai
+        cl3016_dai
+        cjc8988_dai
+        cjc8990_dai
+        auddec
+        audsink
+        i2c
+        wm8960_for_i2si_dai
+        nbdbg
+        pwm
+        mmz
+        standby
+        urandom
+        nlsock
+        PY0zM
+        pcmo_dai
+        pcmi1_dai
+        pcmi2_dai
+        musb_driver
+        hc16xx_driver
+        hcdisk_driver
+        hid
+        hid_generic
+        pl_driver
+        betop_driver
+        mt_driver
+        usbhid
+        pcap
+        llav_hdmi
+        spin_platform
+        spo_platform
+        i2si_platform
+        i2so_platform
+        fb
+        spidev
+        ge
+        dsc
+        llav_vdec
+        hc16xx_link
+driver_late modules:
+        usb_core
+        usb_storage_driver
+others modules:
+        hcscreenapp_start
+        clock_init
+        reset_cjc8990
+        reset_cjc8988
+        reset_cl3016
+        platform_wifi_power_on
+        ___eswin_usb_exit
+        eswin_usb_init
+hc1512a@dbA210# wifi
+hc1512a@dbA210(wifi)# help
+
+Commands available:
+  help                 Show available cmds
+  exit                 Exit from current cmd set
+  history              Show history cmds
+  wpa_supplicant_event_disassoc p2p recv pthread exit
+  p2p_thread           p2p recv pthread
+  get_best_channel     set log level
+  log_level            set log level
+  iwlist               iwconfig command
+  iwconfig             iwconfig command
+  iwpriv               iwpriv command
+  hostapd_cli          hostpad_cli command
+  wpa_cli              wpa_cli command
+  hostapd              hostapd daemon
+  wpa_supplicant       wpa_supplicant daemon
+  hccastll             Set hccast log lovel 0~7. default: 3
+  wdll                 Set wifi driver log lovel 0~5. default: 4
+  tcp                  flag_tcp_dump_wifi
+  rx_pn                cmd_debug_dump_rx_pn_table
+hc1512a@dbA210(wifi)# iwlist
+Usage: iwlist [interface] scanning [essid NNN] [last]
+              [interface] frequency
+              [interface] channel
+              [interface] bitrate
+              [interface] rate
+              [interface] encryption
+              [interface] keys
+              [interface] power
+              [interface] txpower
+              [interface] retry
+              [interface] ap
+              [interface] accesspoints
+              [interface] peers
+              [interface] event
+              [interface] auth
+              [interface] wpakeys
+              [interface] genie
+              [interface] modulation
+Invalid command "iwlist"
+hc1512a@dbA210(wifi)# iwconfig
+Warning: Driver for device p2p0 has been compiled with an ancient version
+of Wireless Extension, while this program support version 11 and later.
+Some things may be broken...
+
+p2p0        ESSID:off/any  Nickname:""
+          NWID:2  Mode:Unknown/bug  Channel:2
+          Access Point: Not-Associated   Bit Rate:0 kb/s   Sensitivity=-2133991368 dBm
+          RTS thr=-2133991368 B   Fragment thr=-2133991368 B
+          Encryption key:0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000
+          Power Management:on
+
+wlan0     T▒̀  ESSID:off/any  Nickname:""
+          NWID:80CDDF54  Mode:Unknown/bug  Channel:-2.13399e+09
+          Access Point: 30:2D:30:30:30:30   Bit Rate=758.133 Mb/s   Sensitivity=-2133991368 dBm
+          RTS thr=-2133991368 B   Fragment thr=-2133991368 B
+          Encryption key:0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000
+          Power Management:off
+
+lo        no wireless extensions.
+
+hc1512a@dbA210(wifi)# wpa_cli
+wpa_cli v2.10
+Copyright (c) 2004-2022, Jouni Malinen <j@w1.fi> and contributors
+
+This software may be distributed under the terms of the BSD license.
+See README for more details.
+
+
+
+Interactive mode
+
+<3>RX-PROBE-REQUEST sa=b8:87:6e:96:04:96 signal=0
+<3>RX-PROBE-REQUEST sa=b8:87:6e:96:04:96 signal=0
+<3>RX-PROBE-REQUEST sa=5c:f3:70:c8:41:0a signal=0
+<3>RX-PROBE-REQUEST sa=5c:f3:70:c8:41:0a signal=0
+<3>RX-PROBE-REQUEST sa=5c:f3:70:c8:41:0a signal=0
+<3>RX-PROBE-REQUEST sa=5c:f3:70:c8:41:0a signal=0
+<3>RX-PROBE-REQUEST sa=5c:f3:70:c8:41:0a signal=0
+<3>RX-PROBE-REQUEST sa=5c:f3:70:c8:41:0a signal=0
+<3>RX-PROBE-REQUEST sa=4c:d5:77:57:5c:03 signal=0
+<3>RX-PROBE-REQUEST sa=4c:d5:77:57:5c:03 signal=0
+<3>RX-PROBE-REQUEST sa=4c:d5:77:57:5c:03 signal=0
+<3>RX-PROBE-REQUEST sa=4c:d5:77:57:5c:03 signal=0
+<3>RX-PROBE-REQUEST sa=4c:d5:77:57:5c:03 signal=0
+<3>RX-PROBE-REQUEST sa=4c:d5:77:57:5c:03 signal=0
+<3>RX-PROBE-REQUEST sa=4c:d5:77:57:5c:03 signal=0
+<3>RX-PROBE-REQUEST sa=4c:d5:77:57:5c:03 signal=0
+<3>RX-PROBE-REQUEST sa=4c:d5:77:57:5c:03 signal=0
+<3>RX-PROBE-REQUEST sa=4c:d5:77:57:5c:03 signal=0
+<3>RX-PROBE-REQUEST sa=4c:d5:77:57:5c:03 signal=0
+<3>RX-PROBE-REQUEST sa=4c:d5:77:57:5c:03 signal=0
+<3>RX-PROBE-REQUEST sa=80:c5:f2:66:97:55 signal=0
+<3>RX-PROBE-REQUEST sa=7c:25:da:cb:e6:2b signal=0
+<3>RX-PROBE-REQUEST sa=7c:25:da:cb:e6:2b signal=0
+> > 'PING' command timed out.
+Connection to wpa_supplicant lost - trying to reconnect
+> eloop: select: Not owner
+hc1512a@dbA210(wifi)# tcp
+flag_tcp_dump_wifi_2=1
+hc1512a@dbA210(wifi)# rx_pn
+fhost_if_map[0]:0x8099b3d4 drv_idx:1 net_if:0x82926280 mac_vif->index:0
+fhost_if_map[1]:0x8099b3e4 drv_idx:0 net_if:0x82926300 mac_vif->index:1
+vif_info_tab[0].rx_pn[0]=0 type 2 index 0 rssi:0 8a:3b:dc:57:87:1c
+vif_info_tab[0].rx_pn[1]=0 type 2 index 0 rssi:0 8a:3b:dc:57:87:1c
+vif_info_tab[0].rx_pn[2]=0 type 2 index 0 rssi:0 8a:3b:dc:57:87:1c
+vif_info_tab[0].rx_pn[3]=0 type 2 index 0 rssi:0 8a:3b:dc:57:87:1c
+vif_info_tab[0].rx_pn[4]=0 type 2 index 0 rssi:0 8a:3b:dc:57:87:1c
+vif_info_tab[0].rx_pn[5]=0 type 2 index 0 rssi:0 8a:3b:dc:57:87:1c
+vif_info_tab[0].rx_pn[6]=0 type 2 index 0 rssi:0 8a:3b:dc:57:87:1c
+vif_info_tab[0].rx_pn[7]=0 type 2 index 0 rssi:0 8a:3b:dc:57:87:1c
+vif_info_tab[0].rx_pn[8]=0 type 2 index 0 rssi:0 8a:3b:dc:57:87:1c
+vif_info_tab[1].rx_pn[0]=0 type 0 index 1 rssi:0 88:3b:dc:57:87:1c
+vif_info_tab[1].rx_pn[1]=0 type 0 index 1 rssi:0 88:3b:dc:57:87:1c
+vif_info_tab[1].rx_pn[2]=0 type 0 index 1 rssi:0 88:3b:dc:57:87:1c
+vif_info_tab[1].rx_pn[3]=0 type 0 index 1 rssi:0 88:3b:dc:57:87:1c
+vif_info_tab[1].rx_pn[4]=0 type 0 index 1 rssi:0 88:3b:dc:57:87:1c
+vif_info_tab[1].rx_pn[5]=0 type 0 index 1 rssi:0 88:3b:dc:57:87:1c
+vif_info_tab[1].rx_pn[6]=0 type 0 index 1 rssi:0 88:3b:dc:57:87:1c
+vif_info_tab[1].rx_pn[7]=0 type 0 index 1 rssi:0 88:3b:dc:57:87:1c
+vif_info_tab[1].rx_pn[8]=0 type 0 index 1 rssi:0 88:3b:dc:57:87:1c
+sta_info_tab[8].rx_pn[0]=0 aid 0 inst_nbr 0 staid 8 last_active 173 00:00:00:00:00:00
+sta_info_tab[8].rx_pn[1]=0 aid 0 inst_nbr 0 staid 8 last_active 173 00:00:00:00:00:00
+sta_info_tab[8].rx_pn[2]=0 aid 0 inst_nbr 0 staid 8 last_active 173 00:00:00:00:00:00
+sta_info_tab[8].rx_pn[3]=0 aid 0 inst_nbr 0 staid 8 last_active 173 00:00:00:00:00:00
+sta_info_tab[8].rx_pn[4]=0 aid 0 inst_nbr 0 staid 8 last_active 173 00:00:00:00:00:00
+sta_info_tab[8].rx_pn[5]=0 aid 0 inst_nbr 0 staid 8 last_active 173 00:00:00:00:00:00
+sta_info_tab[8].rx_pn[6]=0 aid 0 inst_nbr 0 staid 8 last_active 173 00:00:00:00:00:00
+sta_info_tab[8].rx_pn[7]=0 aid 0 inst_nbr 0 staid 8 last_active 173 00:00:00:00:00:00
+sta_info_tab[8].rx_pn[8]=0 aid 0 inst_nbr 0 staid 8 last_active 173 00:00:00:00:00:00
+fhost_disconnect_count=0 flag:0
+hc1512a@dbA210(wifi)# exit
+hc1512a@dbA210# mp
+current i2so volume is 40
+hc1512a@dbA210(mp)# help
+
+Commands available:
+  help                 Show available cmds
+  exit                 Exit from current cmd set
+  history              Show history cmds
+  dbg                  show mp info
+  audio_pitch_shift    audio pitch shift
+  audio_rate_play      audio rate play
+  audio_smooth_switch  audio smooth switch
+  h264_es_test         enter H264_es_test
+  wait_showav          wait show av done and then destroy it
+  stop_showav          stop show av
+  showav               start show av
+
+
+  disav                disav -v 0 -a 1
+  two_resume           two_resume
+  two_pause            two_pause
+  two_seek             two_seek
+  two_time             two_time
+  two_stop             two_stop
+  two_play             two_play a_uri v_uri
+
+  transcode_set        set video transcode config
+  strack               strack index
+  vtrack               vtrack index
+  atrack               atrack index;
+                        set audio play track, index range(0 ~ (hcplayer_get_audio_streams_count() - 1)
+                        info cmd can get number of audio tracks
+
+
+  auto_seek            auto_seek  1/0 -> 1/0 to start/stop auto seek test
+  auto_switch          auto_switch 1/0 -> 1/0 to start/stop auto change stream test
+  rm_loopinfo          rm_loopinfo -> will stop get info loop
+  loopinfo             loopinfo 200 -> will loop get info per 200ms
+  log                  log level: 0, panic; 1, fatal; 2, err, 3, warn; 4, info; 5, verbose(print main flow); 6, debug(print pkt info); 7, trace(print all)
+
+fhost_cntrl_roc_timeout_handler
+
+  p2                   play previous stream in scaned list
+fhost remain on channel cmd vif_idx:0 2412 ap_freq:2412 sta_freq:0
+  p                    play previous stream in scaned list
+fhost remain on channel cmd resp 0
+  n2                   play next stream in scaned list
+  n                    play next stream in scaned list
+  scan2                scan directory_pathfor example: 'scan2 /mnt/usb' will exit multi-instance mode, scan /mnt/usb to create a list and then play list one by one
+
+
+  scan                 scan directory_pathfor example: 'scan /mnt/usb' will exit multi-instance mode, scan /mnt/usb to create a list and then play list one by one
+
+
+  pic_effect_enable    pic_effect_en 1/pic_effect_en 0 to alloc/free buffer for pic_effect
+  pic_effect           pic_effect mode direction type time
+                        mode: 0, normal; 1, shuttle; 2, brush; 3, slide; 4, ramdom; 5, fade
+                        direction: 0, up; 1, left; 2 down; 3, right
+                        time: step interval, unit is ms
+                        for example: pic_effect 1 0 0 50
+  pic_mode             pic_mode -i 50 -> set gif interval to 50ms
+                        pic_mode -d 3000 -> set picture show duration to 3000 ms
+                        pic_mode -b 1 -> set png backgroud, 1: white, 2: black, 3: chess
+
+
+  pbe_precut           pbe_precut <-45 ~ 0>
+
+  pbe                  pbe <0~100>
+
+  eq                   eq -b <band 0~9> -c <cutoff> -q <q> -g <gain>
+
+  eq_enqble            eq_enable <0/1>
+
+  eq6                  eq6 -o (1/0) -m 1 -> set audio eq6 on/off & mode 1
+
+  lr_balance           lr_balance -o (1/0) -i 1 -> set lr_balance on/off & index 1
+
+  twotone              twotone -o (1/0) -m 1 -> set twodone on/off & music mode
+
+  gpio_mute            gpio_mute 1/0 -> gpio mute enable/disable snd out
+  hdmi_mute            mute 1/0 -> enable/disable hdmi out
+  mute                 mute 1/0 -> enable/disable snd out
+  volume               volume 100 -> set volume to 100
+
+
+  full_screen          resume to full screen play from preview
+  rm_preview           remove preview flag
+  preview              preview src dst, base on 1920*1080
+                        If in multi mode and set username for example: preview username 0,0,1920,1080,800,450,320,180
+                        If in multi mode and set filepath for example: preview filepath 0,0,1920,1080,800,450,320,180
+                        If in normal mode for example: preview 0,0,1920,1080,800,450,320,180
+
+  rotate               rotate n: 1, 90; 2, 180; 3, 270
+  time                 time: print position & duration of all player.
+                        If in multi mode, we can use 'time /mnt/1.mkv'
+  info                 info: print media info of all player.
+                        If in multi mode, we can use 'info /mnt/1.mkv'
+  rate                 rate n: change play rate of the player, unit is float, n > 0 or n < 0 is both ok.
+                        If in multi mode, we can use 'rate /mnt/1.mkv n'
+  seek                 seek time: seek to time, unit is second. 0 < time < duration
+                        If in multi mode, we can use 'seek /mnt/1.mkv time'
+  resume               resume: resume all player.
+                        If in multi mode, we can use 'resume /mnt/1.mkv'
+  pause                pause: pause all player.
+                        If in multi mode, we can use 'pause /mnt/1.mkv'
+  stop2                stop: stop all player.
+                        If in multi mode, we can use 'stop /mnt/1.mkv'
+  stop                 stop: stop all player.
+                        If in multi mode, we can use 'stop /mnt/1.mkv'
+                        If in multi mode and set username, we can use 'stop username'
+  stop_mode            stop_mode closevp(bool) fillblack(bool, not support yet);
+                        for example stop_mode 0 0
+
+  decryption_key       set decryption_key;
+                        for example: decryption_key c7e16c4403654b85847037383f0c2db3
+
+  memory_play          memory_play local_file_path
+                        simulate memory play, will load file to memory, and then play memory with ffplayer
+  play                 play file_path -s sync -b buffering -d img_dis_mode -t start_time -r rotate -a athresh -e play_subtitle
+                        -s sync: 0, free run; 1, sync to stc(not support yet); 2, audio master, 3, video_master(not support yet)
+                        -b buffering: 0/1
+                        -d img_dis_mode: 1, full screen; 2, realsize; 4, auto(pillbox or letterbox)
+                        -t time: 0< time < 1, start_time = total_duration * time; time >= 1, start_time = time(seconds)
+                        -r rotate: 1, 90; 2, 180; 3, 270; 4, only enable rotate
+                        -m mirror:(not support yet)
+                        -e play_subtitle: 1, show subtitle; 0, do not show subtitle
+                        -a athresh: i2so will only keep max athresh data, unit is ms
+                        -p bypass mode: 0, bypass off; 1, bypass raw; 2, bypass PCM; 3, bypass raw no preamble;
+                        -o sound dev path: 1, I2SO; 2, PCM output; 4, spdif output; 8, DDP spdif output. can overlay
+                        -z multi display enable: 0, disable; 1, enable
+                        -y multi display on DE type: 0, 2K DE; 1, 4K DE. only valid while enable PBP mode
+                        -l multi display on DE layer: 0, main layer; 1, AUXP layer. only valid while multi display enable
+                        -w Preview's coordinates and sizes:src.x,src.y,src.width,src.height,dst.x,dst.y,dst.width,dst.height
+                        -u user specified name, for example: -u 111
+
+  smooth               smooth 1/0 1: smooth mode; 0:normal mode
+  single               exit multi-instance mode
+  multi                enter multi-instance mode
+  deinit               deinit mplayer
+  init                 init mplayer
+hc1512a@dbA210(mp)# exit
+hc1512a@dbA210# 
